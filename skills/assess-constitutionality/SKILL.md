@@ -140,11 +140,18 @@ Walk these in order. Each gets a findings row.
 - **II.6.1, format and immutability.** Standardized legible format behind an immutable anchor.
   Establish whether the specific link can change before asserting a violation; see the
   interpretive position.
-- **II.7.1, terms of the withdrawal.** Purpose, total ada amount, recipient, general scope.
-  Deferred operational detail is not automatically a defect where an administrator holds pause
-  and refund authority.
-- **II.7.2, prior treasury receipts.** Disclosure in any form satisfies this. Silence is a
-  reportable gap, not by itself dispositive.
+- **II.6.2, rationale.** Title, abstract, justification, and supporting materials, all four in
+  the anchored document. II.6.3 engages only Hard Fork Initiation and Parameter Update actions;
+  name it as not engaged rather than leaving it out.
+- **II.7.1, terms of the withdrawal.** The text names four elements: the purpose, the period
+  for delivery of the activities, the costs and expenses, and the circumstances under which the
+  withdrawal might be refunded. All four are required; a missing one is a defect, not thinness.
+  Operational detail below that level may be deferred where an administrator holds pause and
+  refund authority.
+- **II.7.2, prior treasury receipts.** Disclosure in any form satisfies this, either way, for
+  the last 24 months. Silence is a missing required element: Violated on the row, attributed to
+  the interpretive position, curable with one sentence, and not by itself dispositive of the
+  whole action.
 - **II.7.3.** Read the section and apply it to the facts.
 - **II.7.4, audit allocation.** Two prongs, both required: periodic independent financial
   audits, and implementation of oversight metrics. Read the full exploded budget before
@@ -155,7 +162,8 @@ Walk these in order. Each gets a findings row.
   stake pool delegation, delegation to the predefined `drep_always_abstain` option.
 - **Net Change Limit.** One sentence affirming the withdrawal fits the limit in force. Never
   hardcode a figure; the limit is set by an Info action and changes. It becomes a finding only
-  if actually exceeded.
+  if actually exceeded. TREASURY-01a and TREASURY-02a in Appendix I.3 restate this and share
+  the II.7.3 row; TREASURY-03a, denomination in ada, gets its own row.
 
 For a draft, II.7.5 and II.7.6 are ordinarily Not-yet-verifiable, because there is no
 transaction and no destination account yet. Say that plainly and put both on the verification

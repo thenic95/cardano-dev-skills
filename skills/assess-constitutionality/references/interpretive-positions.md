@@ -35,9 +35,10 @@ Not-yet-verifiable, not Violated.
 
 ## Article II.7.1 — terms of the withdrawal
 
-**Reading.** Purpose, total ada amount, recipient, and general scope in the anchor satisfy
-II.7.1. Granular milestones, payment schedules, and dates may be deferred to a contract
-executed after ratification.
+**Reading.** The four elements the text names, purpose, period for delivery, costs and
+expenses, and refund circumstances, stated in the anchor satisfy II.7.1. Granular milestones,
+payment schedules, and dates below that level may be deferred to a contract executed after
+ratification.
 
 **Reasoning.** II.7.1 requires the terms to be stated, not that every operational detail be
 fixed before the vote. Where an administrator holds pause and refund authority, that
@@ -59,9 +60,9 @@ detail, so a reviewer may not impose one.
 granularity standard the text does not contain converts a disclosure duty into a formatting
 duty.
 
-**Consequence.** Silence is a genuine gap and should be reported so readers can weigh it, but
-absent disclosure is not by itself dispositive of unconstitutionality. Grade it as a concern
-and note what was not disclosed.
+**Consequence.** Silence is a missing required element, so the row is Violated on this reading,
+with a note of what was not disclosed and that one sentence cures it. Absent disclosure is not
+by itself dispositive of the whole action; report it so readers can weigh it.
 
 ---
 
