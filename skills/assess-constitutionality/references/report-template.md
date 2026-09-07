@@ -1,7 +1,8 @@
 # Assessment Report Template
 
-Write to `assessment-<slug>.md` in the working directory. Keep the section order below;
-readers and reviewers rely on it.
+Deliver the report in conversation, in full. When the user asks for a file afterwards, it is
+`assessment-<slug>.md` in the working directory. Keep the section order below; readers and
+reviewers rely on it.
 
 Omit a section only when it would be empty, with one exception: the findings table is never
 omitted and never abbreviated, because a missing row is indistinguishable from a passed one.

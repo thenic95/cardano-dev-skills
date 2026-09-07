@@ -8,7 +8,7 @@ description: >-
   against the Constitution", "will this treasury withdrawal pass CC review", "review my
   governance action draft", "constitutional defects".
 allowed-tools: Read Grep Glob
-disallowed-tools: WebFetch WebSearch Bash Edit
+disallowed-tools: Bash Edit Write WebFetch WebSearch
 ---
 
 <!-- Constitutional text: ${CLAUDE_SKILL_DIR}/../../docs/sources/cardano-constitution/ (see references/constitution-index.md) -->
@@ -226,12 +226,13 @@ When a parameter is governance-critical only, state explicitly that PARAM-03a an
 not engaged and no SPO vote is required. Showing that both tracks were considered is part of
 the finding.
 
-### Step 6: Write the report
+### Step 6: Deliver the report
 
-Follow `references/report-template.md`. Write to `assessment-<slug>.md` in the working
-directory, then give a short summary in conversation. Writing the file is not pre-approved, so
-expect a permission prompt; if the user declines, deliver the full report in conversation
-instead rather than silently shortening it.
+Follow `references/report-template.md` and deliver the full report in conversation. A summary
+in its place is not the report, and the findings table is never abbreviated. Write it to stand
+alone when copied out: it is a document, not a chat answer. If the user wants it saved, they ask
+after the turn and it is written then under the template's file name; the skill turn reads
+mirrored third-party text and holds no writing tool, the same line as the other analysis skills.
 
 Before writing the disposition, check the analysis against three failure modes:
 
